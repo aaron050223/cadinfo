@@ -1,0 +1,78 @@
+
+.header{
+    display: flex;
+    width: 100%;
+    background: white;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0.5rem 1rem;
+}
+.imagen_principal_inicio{
+    width: 9%;
+    padding-right: 3.3rem;
+}
+
+.pestañas_inicio{
+    display: flex;
+    gap: 2rem;
+    font-family: Arial;
+    font-size: 0.6rem;
+    color: #37323E;
+}
+
+.boton_inicio1{
+    &:hover {
+        cursor: pointer;
+        color: #DEB841;
+        transition: 0.2s;
+    }
+}
+
+.boton_inicio2{
+    &:hover {
+        cursor: pointer;
+        color: #DEB841;
+        transition: 0.2s;
+    }
+}
+
+.main{
+    width: 100%;
+}
+
+.imagen_caleta_inicio{
+    width: 100%;
+    background-image: url("assets/logo_cadinfo_fondo_blanco.png");
+
+}
+
+.imagenes_pequeñas_inicio{
+    display: flex;
+    justify-content: center;
+    gap: 8rem;
+    width: 100%;
+}
+
+.imagen_viña_inicio{
+    width: 32rem;
+    height: 32rem;
+    object-fit: cover;
+    img:hover {
+        transform: scale(1.1);
+        z-index: 0;
+        transition: transform 0.3s ease;
+    }
+}
+
+.imagen_santamaria_inicio{
+    width: 32rem;
+    height: 32rem;
+    object-fit: cover;
+}
+
+.imagen_oveja_negra_inicio{
+    width: 32rem;
+    height: 32rem;
+    object-fit: cover;
+}
