@@ -8,8 +8,9 @@
     align-items: center;
     margin: 0.5rem 1rem;
 }
-.imagen_principal_inicio{
-    width: 9%;
+.imagen_logo_inicio{
+    width: 7.5%;
+    width: 10rem;
     padding-right: 3.3rem;
 }
 
@@ -21,7 +22,9 @@
     color: #37323E;
 }
 
-.boton_inicio1{
+.boton_inicio1\.1{
+    text-decoration: none;
+    color: #37323E;
     &:hover {
         cursor: pointer;
         color: #DEB841;
@@ -41,38 +44,64 @@
     width: 100%;
 }
 
-.imagen_caleta_inicio{
+.imagen_grande_inicio{
     width: 100%;
-    background-image: url("assets/logo_cadinfo_fondo_blanco.png");
-
 }
 
-.imagenes_pequeñas_inicio{
+.titulo_inicio{
+    font-family: "Roboto Light", sans-serif;
+    font-size: 4.5rem;
+    color: #DEB841;
+    margin: 0.5rem;
+}
+
+.secciones{
+    font-family: "Roboto Light", sans-serif;
+    font-size: 1.1rem;
+    color: #37323E;
+    margin-left: 2rem;
+    max-width: 50%;
+    text-align: justify;
+    margin-top: 3.5rem ;
+    margin-bottom: 3.5rem ;
+}
+
+.imagenes_pequeñas_inicio {
     display: flex;
     justify-content: center;
-    gap: 8rem;
-    width: 100%;
+    align-items: center;
+    gap: 5rem;
+    flex-wrap: wrap;
+    margin: 2rem 1rem;
 }
 
-.imagen_viña_inicio{
-    width: 32rem;
-    height: 32rem;
+
+.imagen_general {
+    width: 27rem;
     object-fit: cover;
-    img:hover {
-        transform: scale(1.1);
-        z-index: 0;
-        transition: transform 0.3s ease;
-    }
+    transition: transform 0.3s ease;
+    border-radius: 1rem;
+    box-sizing: border-box; /* Esto hace que la imagen se quede donde esta */
+
 }
 
-.imagen_santamaria_inicio{
-    width: 32rem;
-    height: 32rem;
-    object-fit: cover;
+.imagen_general:hover {
+    transform: scale(1.1);
+    border: #DEB841 solid 0.2rem
 }
 
-.imagen_oveja_negra_inicio{
-    width: 32rem;
-    height: 32rem;
-    object-fit: cover;
+.linea_horzontal_inicio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linea_horzontal_inicio\.1{
+    width: 25rem;
+}
+
+.imagen_grande_carnaval{
+    width: 40rem;
+    display: flex;
+    justify-content: center;
 }
