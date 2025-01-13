@@ -100,8 +100,78 @@
     width: 25rem;
 }
 
-.imagen_grande_carnaval{
-    width: 40rem;
+.personajes_ilustres{
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    font-family: "Roboto Light", sans-serif;
+    font-size: 2rem;
+    color: #DEB841;
+}
+
+.personas_cadiz_inicio{
+    width: 75%;
+}
+
+.carnaval_inicio{
+    display: flex;
+}
+
+.imagen_grande_carnaval{
+    width: 35%;
+    margin-left: 5rem;
+    margin-right: 3rem;
+}
+
+.titulo_carnaval{
+    width: 35%;
+    font-family: "Roboto Light", sans-serif;
+    font-size: 4.5rem;
+    color: #DEB841;
+    align-items: flex-start;
+}
+
+.informacion_carnaval{
+    margin: 5rem auto;
+}
+
+/* footer */
+
+footer {
+    background-color: #DEB841;
+    color: #37323E;
+    padding: 2rem 1rem;
+    text-align: center;
+    font-family: "Arial", sans-serif;
+    font-size: 0.9rem;
+
+}
+
+.footer-contenido {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.footer-logo {
+    border-radius: 0.5rem;
+}
+
+.borde_logo_inicio{
+    border-radius: 25%;
+    width: 8rem;
+}
+
+.footer-enlaces {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    gap: 1.5rem;
+    color: #37323E;
+    font-size: 0.9rem;
+    transition: color 0.3s;
+    font-family: "Roboto Light", sans-serif;
 }
