@@ -44,6 +44,10 @@
     width: 100%;
 }
 
+/*
+INICIO
+ */
+
 .imagen_grande_inicio{
     width: 100%;
 }
@@ -52,14 +56,14 @@
     font-family: "Roboto Light", sans-serif;
     font-size: 4.5rem;
     color: #DEB841;
-    margin: 0.5rem;
+    margin-left: 4rem;
 }
 
 .secciones{
     font-family: "Roboto Light", sans-serif;
     font-size: 1.1rem;
     color: #37323E;
-    margin-left: 2rem;
+    margin-left: 4.5rem;
     max-width: 50%;
     text-align: justify;
     margin-top: 3.5rem ;
@@ -112,28 +116,76 @@
 
 .personas_cadiz_inicio{
     width: 75%;
+    margin-bottom: 2rem;
 }
+
+/*
+CARNAVAL
+ */
 
 .carnaval_inicio{
     display: flex;
+    align-items: center;
 }
 
 .imagen_grande_carnaval{
-    width: 35%;
-    margin-left: 5rem;
+    width: 100%;
     margin-right: 3rem;
+}
+
+.poster_info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 4.5rem;
 }
 
 .titulo_carnaval{
     width: 35%;
     font-family: "Roboto Light", sans-serif;
-    font-size: 4.5rem;
+    font-size: 3.5rem;
     color: #DEB841;
-    align-items: flex-start;
+    margin-left: 7.5rem;
+    margin-top: 4rem;
 }
 
 .informacion_carnaval{
-    margin: 5rem auto;
+    margin: 3rem;
+    font-family: "Roboto Light", sans-serif;
+    font-weight: lighter;
+    max-width: 79%;
+    color: #37323E;
+}
+
+.titulo_e_info_carnaval{
+    display: flex;
+    flex-direction: column;
+}
+
+.pie_de_foto{
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 1rem;
+}
+
+.tipo_agrupaciones_titulo_carnaval{
+    display: flex;
+    font-family: "Roboto Light", sans-serif;
+    font-size: 4.5rem;
+    color: #DEB841;
+    justify-content: center;
+    margin-bottom: 10rem;
+}
+
+.tipo_de_agrupaciones_info{
+
+}
+
+.titulo_e_info_agrupaciones_carnaval{
+    margin-bottom: 4.5rem;
+}
+
+.imagen_agrupaciones_carnaval{
+    height: 25rem;
 }
 
 /* footer */
@@ -156,7 +208,7 @@ footer {
     gap: 1rem;
 }
 
-.footer-logo {
+.footer-logo{
     border-radius: 0.5rem;
 }
 
@@ -165,13 +217,16 @@ footer {
     width: 8rem;
 }
 
-.footer-enlaces {
+.footer-enlaces{
     list-style: none;
-    text-decoration: none;
     display: flex;
     gap: 1.5rem;
-    color: #37323E;
     font-size: 0.9rem;
-    transition: color 0.3s;
     font-family: "Roboto Light", sans-serif;
 }
+
+.politicas{
+    text-decoration: none;
+    color: #37323E;
+}
+
