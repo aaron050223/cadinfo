@@ -68,6 +68,7 @@ INICIO
     text-align: justify;
     margin-top: 3.5rem ;
     margin-bottom: 3.5rem ;
+    font-weight: lighter;
 }
 
 .imagenes_pequeñas_inicio {
@@ -139,12 +140,16 @@ CARNAVAL
     margin-left: 4.5rem;
 }
 
+.poster_info_derecha{
+    margin-right: 6rem;
+}
+
 .titulo_carnaval{
-    width: 35%;
+    width: 100%;
     font-family: "Roboto Light", sans-serif;
     font-size: 3.5rem;
     color: #DEB841;
-    margin-left: 7.5rem;
+    margin-left: 3rem;
     margin-top: 4rem;
 }
 
@@ -165,6 +170,7 @@ CARNAVAL
     font-style: italic;
     font-weight: lighter;
     font-size: 1rem;
+    color: #37323E;
 }
 
 .tipo_agrupaciones_titulo_carnaval{
@@ -176,16 +182,50 @@ CARNAVAL
     margin-bottom: 10rem;
 }
 
-.tipo_de_agrupaciones_info{
-
-}
-
 .titulo_e_info_agrupaciones_carnaval{
     margin-bottom: 4.5rem;
 }
 
+.titulo_e_info_agrupaciones_carnaval_derecha{
+    margin-bottom: 4.5rem;
+    margin-left: 1rem;
+}
+
 .imagen_agrupaciones_carnaval{
     height: 25rem;
+}
+
+.titulo_fiestas{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4rem;
+    font-family: "Roboto Light", sans-serif;
+    font-size: 3.5rem;
+    color: #DEB841;
+    margin-top: 4rem;
+}
+
+.imagenes_pequeñas_inicio_fiestas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    flex-wrap: wrap;
+    margin-bottom: 10rem;
+}
+
+.click_fiestas{
+    text-decoration: none;
+}
+
+.nombre_fiestas{
+    display: flex;
+    justify-content: center;
+    color: #37323E;
+    font-size: 2.5rem;
+    font-family: "Roboto Light", sans-serif;
+    font-weight: lighter;
 }
 
 /* footer */
@@ -197,6 +237,7 @@ footer {
     text-align: center;
     font-family: "Arial", sans-serif;
     font-size: 0.9rem;
+    margin-top: 5rem;
 
 }
 
