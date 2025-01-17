@@ -228,6 +228,34 @@ CARNAVAL
     font-weight: lighter;
 }
 
+.carnavaleros_destacados{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+    flex-wrap: wrap;
+    margin: 2rem;
+}
+
+.carnavaleros_destacados_2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    flex-wrap: wrap;
+    margin: 2rem;
+}
+
+.img_info_carnavaleros{
+    font-family: "Roboto Light", sans-serif;
+    font-weight: lighter;
+    color: #37323E;
+}
+
+.img_info_carnavaleros{
+
+}
+
 /* footer */
 
 footer {
@@ -270,4 +298,3 @@ footer {
     text-decoration: none;
     color: #37323E;
 }
-
