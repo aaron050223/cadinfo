@@ -32,6 +32,10 @@
     width: 100%;
 }
 
+.icono_perfil{
+    width: 3rem;
+}
+
 .boton_inicio1\.1{
     text-decoration: none;
     color: #37323E;
@@ -360,6 +364,17 @@ CARNAVAL
     margin: 5rem;
 }
 
+.secciones_hoteles{
+    font-family: "Roboto Light", sans-serif;
+    font-size: 1.1rem;
+    color: #37323E;
+    margin-left: 4.5rem;
+    max-width: 75%;
+    text-align: justify;
+    margin-top: 3.5rem ;
+    margin-bottom: 3.5rem ;
+    font-weight: lighter;
+}
 /* footer */
 
 footer {
