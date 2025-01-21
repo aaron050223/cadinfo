@@ -22,6 +22,16 @@
     color: #37323E;
 }
 
+.pestañas_inicio_derecha{
+    text-align: right;
+    gap: 2rem;
+    margin-right: 4rem;
+    font-family: Arial;
+    font-size: 0.6rem;
+    color: #37323E;
+    width: 100%;
+}
+
 .boton_inicio1\.1{
     text-decoration: none;
     color: #37323E;
@@ -39,6 +49,69 @@
         transition: 0.2s;
     }
 }
+/* MENU DE HAMBURGUESA */
+
+/* Menú de hamburguesa con imagen */
+.menu-hamburguesa-header {
+    position: relative;
+    display: inline-block; /* Para mantener la alineación en el header */
+}
+
+.menu-hamburguesa-header label {
+    cursor: pointer;
+    display: inline-block;
+    transition: transform 0.2s;
+}
+
+.menu-hamburguesa-header label:hover {
+    transform: scale(1.1); /* Efecto de zoom al pasar el cursor */
+}
+
+.imagen_menu {
+    width: 2rem; /* Ajustar tamaño de la imagen del menú */
+    height: auto;
+}
+
+/* Checkbox oculto para controlar el menú */
+#menu-checkbox {
+    display: none;
+}
+
+/* Contenedor del menú */
+.menu-items-header {
+    display: none;
+    position: absolute;
+    top: 2.5rem; /* Ajustar según el diseño */
+    left: 0;
+    background-color: white;
+    border: 1px solid #DEB841;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 0.5rem 0;
+    z-index: 1000;
+}
+
+/* Enlaces dentro del menú */
+.menu-items-header a {
+    display: block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: #37323E;
+    font-family: Arial, sans-serif;
+    font-size: 0.8rem;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.menu-items-header a:hover {
+    background-color: #DEB841;
+    color: white;
+}
+
+/* Mostrar el menú al marcar el checkbox */
+#menu-checkbox:checked + .menu-items-header {
+    display: block;
+}
+
 
 .main{
     width: 100%;
@@ -244,6 +317,7 @@ CARNAVAL
     gap: 4rem;
     flex-wrap: wrap;
     margin: 2rem;
+    width: 100%;
 }
 
 .img_info_carnavaleros{
@@ -254,6 +328,36 @@ CARNAVAL
 
 .img_info_carnavaleros{
 
+}
+
+.localizaciones_boton{
+    text-decoration: none;
+}
+
+.localizaciones{
+    display: flex;
+    justify-content: center;
+}
+
+.informacion_localizaciones{
+    margin: 3rem;
+    font-family: "Roboto Light", sans-serif;
+    font-weight: lighter;
+    color: #37323E;
+}
+
+.imagen_agrupaciones_localizaciones{
+    height: 25rem;
+    margin-bottom: 4rem;
+}
+
+.titulo_interes{
+    font-family: "Roboto Light", sans-serif;
+    font-size: 4.5rem;
+    color: #DEB841;
+    display: flex;
+    justify-content: center;
+    margin: 5rem;
 }
 
 /* footer */
