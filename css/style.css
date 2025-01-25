@@ -364,16 +364,70 @@ CARNAVAL
     margin: 5rem;
 }
 
-.secciones_hoteles{
+.secciones_hoteles {
     font-family: "Roboto Light", sans-serif;
     font-size: 1.1rem;
     color: #37323E;
     margin-left: 4.5rem;
     max-width: 75%;
     text-align: justify;
-    margin-top: 3.5rem ;
-    margin-bottom: 3.5rem ;
+    margin-top: 3.5rem;
+    margin-bottom: 3.5rem;
     font-weight: lighter;
+}
+
+.correo{
+    font-family: "Roboto Light", sans-serif;
+    font-size: 1.1rem;
+    color: #37323E;
+    margin-left: 4.5rem;
+}
+.Introducir_correo_electronico{
+    width: 25%;
+    font-family: "Arial";
+    font-size: 1rem;
+    font-style: italic;
+    color: #888;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-left: 2rem;
+}
+
+.contraseña{
+    font-family: "Roboto Light", sans-serif;
+    font-size: 1.1rem;
+    color: #37323E;
+    margin-left: 4.5rem;
+}
+
+.Introducir_contraseña{
+    width: 25%;
+    font-family: "Arial";
+    font-size: 1rem;
+    font-style: italic;
+    color: #888;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-left: 2rem;
+}
+
+.Parte_de_abajo{
+    margin-top: 1.5rem;
+    font-weight: lighter;
+    font-family: "Roboto Light", sans-serif;
+    font-size: 1.1rem;
+    color: #37323E;
+    margin-left: 4.5rem;
+    list-style: none;
+}
+
+.Iniciar_sesion_2{
+    text-align: right;
+    color: #DEB841;
+    &:hover{
+        color: #DE9E36;
+        cursor: pointer;
+    }
 }
 /* footer */
 
