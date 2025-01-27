@@ -23,10 +23,9 @@
 }
 
 .pestañas_inicio_derecha{
-    text-align: right;
+    margin-left: 2rem;
     gap: 2rem;
-    margin-right: 4rem;
-    font-family: Arial;
+    margin-right: 5rem;
     font-size: 0.6rem;
     color: #37323E;
     width: 100%;
@@ -59,6 +58,9 @@
 .menu-hamburguesa-header {
     position: relative;
     display: inline-block; /* Para mantener la alineación en el header */
+}
+.label_bajar{
+    margin-top: 0.3rem;
 }
 
 .menu-hamburguesa-header label {
@@ -93,6 +95,7 @@
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     padding: 0.5rem 0;
     z-index: 1000;
+    width: 9.56rem;
 }
 
 /* Enlaces dentro del menú */
@@ -257,6 +260,7 @@ CARNAVAL
     color: #DEB841;
     justify-content: center;
     margin-bottom: 10rem;
+    width: 100%;
 }
 
 .titulo_e_info_agrupaciones_carnaval{
@@ -375,6 +379,9 @@ CARNAVAL
     margin-bottom: 3.5rem;
     font-weight: lighter;
 }
+.foto_hotel{
+    width: 100%;
+}
 
 .correo{
     font-family: "Roboto Light", sans-serif;
@@ -429,6 +436,11 @@ CARNAVAL
         cursor: pointer;
     }
 }
+
+.sesion{
+    display: flex;
+    flex-direction: row;
+}
 /* footer */
 
 footer {
@@ -470,4 +482,75 @@ footer {
 .politicas{
     text-decoration: none;
     color: #37323E;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .imagen_logo_inicio {
+        width: 100px;
+    }
+
+    .menu-hamburguesa-header {
+        display: block;
+    }
+
+    .tipo_agrupaciones_titulo_carnaval{
+        display: flex;
+        justify-content: center;
+    }
+
+    .main .titulo_inicio {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .imagenes_pequeñas_inicio {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .carnavaleros_destacados {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+/* Para móviles (max-width: 480px) */
+@media (max-width: 480px) {
+    .header {
+        padding: 10px;
+    }
+
+    .imagen_logo_inicio {
+        width: 80px;
+    }
+
+    .tipo_agrupaciones_titulo_carnaval{
+        display: flex;
+        justify-content: center;
+    }
+
+    .main .titulo_inicio {
+        font-size: 18px;
+        padding: 0 10px;
+    }
+
+    .imagenes_pequeñas_inicio {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .footer-contenido {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-enlaces {
+        padding-top: 10px;
+    }
 }
