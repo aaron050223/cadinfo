@@ -238,6 +238,7 @@ CARNAVAL
     font-family: "Roboto Light", sans-serif;
     font-weight: lighter;
     max-width: 79%;
+    width: 100%;
     color: #37323E;
 }
 
@@ -485,6 +486,19 @@ footer {
 }
 
 /* MEDIA QUERIES */
+@media (max-width: 1105px) {
+    .imagen_agrupaciones_carnaval{
+        height: 15rem;
+    }
+    .informacion_carnaval{
+
+    }
+    .tipo_de_agrupaciones_info{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 @media (max-width: 768px) {
     .header {
         flex-direction: column;
@@ -517,6 +531,9 @@ footer {
     .carnavaleros_destacados {
         flex-wrap: wrap;
         justify-content: center;
+    }
+    .imagen_agrupaciones_carnaval{
+        height: 15rem;
     }
 }
 
