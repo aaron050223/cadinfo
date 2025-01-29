@@ -1,4 +1,8 @@
-
+:root {
+    --primario: #37323E;
+    --secundario: #DEB841;
+    --terciario: #DE9E36;
+}
 .header{
     display: flex;
     width: 100%;
@@ -408,11 +412,18 @@ CARNAVAL
     color: #37323E;
     margin-left: 4.5rem;
 }
-.Aceptar_sesion{
+.Aceptar_sesion_1{
     font-family: "Roboto Light", sans-serif;
     font-size: 1.1rem;
     color: #37323E;
-    margin-left: 4.5rem;
+    margin-top: 1rem;
+    font-weight: lighter;
+}
+.Aceptar_sesion_2{
+    font-family: "Roboto Light", sans-serif;
+    font-size: 1.1rem;
+    color: #37323E;
+    margin-top: 1rem;
     font-weight: lighter;
 }
 .Introducir_contraseña{
@@ -518,7 +529,7 @@ footer {
     color: #37323E;
 }
 .terminos{
-    margin-left: 3rem;
+    padding: 3rem;
 }
 .terminos .titulo {
     text-align: center;
@@ -527,7 +538,15 @@ footer {
     margin-bottom: 1rem;
     margin-right: 3rem;
 }
-
+.elegir_genero {
+    border: none;
+    margin-top: 1.5rem;
+    font-weight: lighter;
+    font-family: "Roboto Light", sans-serif;
+    font-size: 1.1rem;
+    color: #37323E;
+    margin-left: 3rem;
+}
 .terminos .descripcion {
     text-align: justify;
     margin-bottom: 1.5rem;
