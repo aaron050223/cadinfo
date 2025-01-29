@@ -96,7 +96,7 @@
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     padding: 0.5rem 0;
     z-index: 1000;
-    width: 9.56rem;
+    width: 15rem;
 }
 
 /* Enlaces dentro del menú */
@@ -106,7 +106,7 @@
     text-decoration: none;
     color: #37323E;
     font-family: Arial, sans-serif;
-    font-size: 0.8rem;
+    font-size: 1.2rem;
     transition: background-color 0.3s, color 0.3s;
 }
 
