@@ -31,7 +31,7 @@
     gap: 2rem;
     margin-right: 5rem;
     font-size: 0.6rem;
-    color: #37323E;
+    color: var(--primario);
     width: 100%;
 }
 
@@ -41,10 +41,10 @@
 
 .boton_inicio1\.1{
     text-decoration: none;
-    color: #37323E;
+    color: var(--primario);
     &:hover {
         cursor: pointer;
-        color: #DEB841;
+        color: var(--secundario);
         transition: 0.2s;
     }
 }
@@ -52,7 +52,7 @@
 .boton_inicio2{
     &:hover {
         cursor: pointer;
-        color: #DEB841;
+        color: var(--secundario);
         transition: 0.2s;
     }
 }
@@ -95,7 +95,7 @@
     top: 2.5rem; /* Ajustar según el diseño */
     left: 0;
     background-color: white;
-    border: 1px solid #DEB841;
+    border: 1px solid var(--secundario);
     border-radius: 0.5rem;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     padding: 0.5rem 0;
@@ -115,7 +115,7 @@
 }
 
 .menu-items-header a:hover {
-    background-color: #DEB841;
+    background-color: var(--secundario);
     color: white;
 }
 
@@ -140,14 +140,14 @@ INICIO
 .titulo_inicio{
     font-family: "Roboto Light", sans-serif;
     font-size: 4.5rem;
-    color: #DEB841;
+    color: var(--secundario);
     margin-left: 4rem;
 }
 
 .secciones{
     font-family: "Roboto Light", sans-serif;
     font-size: 1.1rem;
-    color: #37323E;
+    color: var(--primario);
     margin-left: 4.5rem;
     max-width: 50%;
     text-align: justify;
@@ -177,7 +177,7 @@ INICIO
 
 .imagen_general:hover {
     transform: scale(1.1);
-    border: #DEB841 solid 0.2rem
+    border: var(--secundario) solid 0.2rem
 }
 
 .linea_horzontal_inicio{
@@ -197,7 +197,7 @@ INICIO
     align-items: center;
     font-family: "Roboto Light", sans-serif;
     font-size: 2rem;
-    color: #DEB841;
+    color: var(--secundario);
 }
 
 .personas_cadiz_inicio{
@@ -233,7 +233,7 @@ CARNAVAL
     width: 100%;
     font-family: "Roboto Light", sans-serif;
     font-size: 3rem;
-    color: #DEB841;
+    color: var(--secundario);
     margin-left: 3rem;
     margin-top: 4rem;
 }
@@ -244,7 +244,7 @@ CARNAVAL
     font-weight: lighter;
     max-width: 79%;
     width: 100%;
-    color: #37323E;
+    color: var(--primario);
 }
 
 .titulo_e_info_carnaval{
@@ -263,7 +263,7 @@ CARNAVAL
     display: flex;
     font-family: "Roboto Light", sans-serif;
     font-size: 4.5rem;
-    color: #DEB841;
+    color: var(--secundario);
     justify-content: center;
     margin-bottom: 10rem;
     width: 100%;
@@ -289,7 +289,7 @@ CARNAVAL
     margin-bottom: 4rem;
     font-family: "Roboto Light", sans-serif;
     font-size: 3.5rem;
-    color: #DEB841;
+    color: var(--secundario);
     margin-top: 4rem;
 }
 
@@ -309,7 +309,7 @@ CARNAVAL
 .nombre_fiestas{
     display: flex;
     justify-content: center;
-    color: #37323E;
+    color: var(--primario);
     font-size: 2.5rem;
     font-family: "Roboto Light", sans-serif;
     font-weight: lighter;
@@ -337,7 +337,7 @@ CARNAVAL
 .img_info_carnavaleros{
     font-family: "Roboto Light", sans-serif;
     font-weight: lighter;
-    color: #37323E;
+    color: var(--primario);
 }
 
 .img_info_carnavaleros{
@@ -357,7 +357,7 @@ CARNAVAL
     margin: 3rem;
     font-family: "Roboto Light", sans-serif;
     font-weight: lighter;
-    color: #37323E;
+    color: var(--primario);
 }
 
 .imagen_agrupaciones_localizaciones{
@@ -368,7 +368,7 @@ CARNAVAL
 .titulo_interes{
     font-family: "Roboto Light", sans-serif;
     font-size: 4.5rem;
-    color: #DEB841;
+    color: var(--secundario);
     display: flex;
     justify-content: center;
     margin: 5rem;
@@ -377,7 +377,7 @@ CARNAVAL
 .secciones_hoteles {
     font-family: "Roboto Light", sans-serif;
     font-size: 1.1rem;
-    color: #37323E;
+    color: var(--primario);
     margin-left: 4.5rem;
     max-width: 75%;
     text-align: justify;
@@ -392,7 +392,7 @@ CARNAVAL
 .correo{
     font-family: "Roboto Light", sans-serif;
     font-size: 1.1rem;
-    color: #37323E;
+    color: var(--primario);
     margin-left: 4.5rem;
 }
 .Introducir_correo_electronico{
@@ -409,20 +409,20 @@ CARNAVAL
 .contraseña{
     font-family: "Roboto Light", sans-serif;
     font-size: 1.1rem;
-    color: #37323E;
+    color: var(--primario);
     margin-left: 4.5rem;
 }
 .Aceptar_sesion_1{
     font-family: "Roboto Light", sans-serif;
     font-size: 1.1rem;
-    color: #37323E;
+    color: var(--primario);
     margin-top: 1rem;
     font-weight: lighter;
 }
 .Aceptar_sesion_2{
     font-family: "Roboto Light", sans-serif;
     font-size: 1.1rem;
-    color: #37323E;
+    color: var(--primario);
     margin-top: 1rem;
     font-weight: lighter;
 }
@@ -446,7 +446,7 @@ CARNAVAL
     margin-top: 1rem;
     border-radius: 0.4rem;
     margin-left: 4.5rem;
-    background-color: #DEB841;
+    background-color: var(--secundario);
     color: white;
     padding: 1rem;
     transition: 0.3s;
@@ -454,7 +454,7 @@ CARNAVAL
     &:hover {
         transition: 0.3s;
         transform: scale(1.1);
-        background-color: #DEB841;
+        background-color: var(--secundario);
         color: white;
         cursor: pointer;
     }
@@ -471,9 +471,9 @@ CARNAVAL
 
 .Iniciar_sesion_2{
     text-align: right;
-    color: #DEB841;
+    color: var(--secundario);
     &:hover{
-        color: #DE9E36;
+        color: var(--terciario);
         cursor: pointer;
     }
 }
@@ -485,8 +485,8 @@ CARNAVAL
 /* footer */
 
 footer {
-    background-color: #DEB841;
-    color: #37323E;
+    background-color: var(--secundario);
+    color: var(--primario);
     padding: 2rem 1rem;
     text-align: center;
     font-family: "Arial", sans-serif;
@@ -525,7 +525,7 @@ footer {
 
 .politicas{
     text-decoration: none;
-    color: #37323E;
+    color: var(--primario);
 }
 .terminos{
     padding: 3rem;
@@ -533,7 +533,7 @@ footer {
 .terminos .titulo {
     text-align: center;
     font-size: 2rem;
-    color: #DEB841;
+    color: var(--secundario);
     margin-bottom: 1rem;
     margin-right: 3rem;
 }
@@ -543,7 +543,7 @@ footer {
     font-weight: lighter;
     font-family: "Roboto Light", sans-serif;
     font-size: 1.1rem;
-    color: #37323E;
+    color: var(--primario);
     margin-left: 3rem;
 }
 .terminos .descripcion {
@@ -553,28 +553,28 @@ footer {
 
 .terminos h2 {
     font-size: 1.5rem;
-    color: #DE9E36;
+    color: var(--secundario);
     margin-top: 1.5rem;
 }
 
 .terminos p {
     margin-bottom: 1rem;
     text-align: justify;
-    color: #37323E;
+    color: var(--primario);
 }
 
 .terminos a {
-    color: #DE9E36;
+    color: var(--terciario);
     text-decoration: none;
 }
 
 .terminos a:hover {
     text-decoration: underline;
-    color: #DEB841;
+    color: var(--secundario);
 }
 .boton_inicio1\.2{
     text-decoration: none;
-    color: #37323E;
+    color: var(--primario);
     &:hover {
         cursor: pointer;
         color: white;
