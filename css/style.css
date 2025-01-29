@@ -163,7 +163,7 @@ INICIO
 
 
 .imagen_general {
-    width: 27rem;
+    width: 25rem;
     object-fit: cover;
     transition: transform 0.3s ease;
     border-radius: 1rem;
@@ -408,7 +408,13 @@ CARNAVAL
     color: #37323E;
     margin-left: 4.5rem;
 }
-
+.Aceptar_sesion{
+    font-family: "Roboto Light", sans-serif;
+    font-size: 1.1rem;
+    color: #37323E;
+    margin-left: 4.5rem;
+    font-weight: lighter;
+}
 .Introducir_contraseña{
     width: 25%;
     font-family: "Arial";
@@ -419,7 +425,29 @@ CARNAVAL
     padding: 1rem;
     margin-left: 2rem;
 }
+.registrarse {
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    font-family: "Roboto Light", sans-serif;
+    text-align: center;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    border-radius: 0.4rem;
+    margin-left: 4.5rem;
+    background-color: #DEB841;
+    color: white;
+    padding: 1rem;
+    transition: 0.3s;
 
+    &:hover {
+        transition: 0.3s;
+        transform: scale(1.1);
+        background-color: #DEB841;
+        color: white;
+        cursor: pointer;
+    }
+}
 .Parte_de_abajo{
     margin-top: 1.5rem;
     font-weight: lighter;
@@ -453,7 +481,10 @@ footer {
     font-family: "Arial", sans-serif;
     font-size: 0.9rem;
     margin-top: 5rem;
-
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .footer-contenido {
@@ -462,6 +493,7 @@ footer {
     flex-direction: column;
     align-items: center;
     gap: 1rem;
+    width: 100%;
 }
 
 .footer-logo{
@@ -521,6 +553,23 @@ footer {
 .terminos a:hover {
     text-decoration: underline;
     color: #DEB841;
+}
+.boton_inicio1\.2{
+    text-decoration: none;
+    color: #37323E;
+    &:hover {
+        cursor: pointer;
+        color: white;
+        transition: 0.2s;
+    }
+}
+.icono_redes{
+    width: 4rem;
+}
+.footer-nav{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
 }
 /* MEDIA QUERIES */
 @media (max-width: 1105px) {
