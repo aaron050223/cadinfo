@@ -610,6 +610,9 @@ footer {
         display: flex;
         flex-direction: column;
     }
+    .poster_info{
+        margin-left: 0;
+    }
 }
 
 @media (max-width: 768px) {
@@ -632,7 +635,7 @@ footer {
     }
 
     .main .titulo_inicio {
-        font-size: 24px;
+        font-size: 3rem;
         text-align: center;
     }
 
@@ -665,14 +668,10 @@ footer {
         justify-content: center;
     }
 
-    .main .titulo_inicio {
-        font-size: 18px;
-        padding: 0 10px;
-    }
 
     .imagenes_pequeñas_inicio {
         flex-direction: column;
-        gap: 5px;
+        gap: 0.5rem;
     }
 
     .footer-contenido {
@@ -681,6 +680,41 @@ footer {
     }
 
     .footer-enlaces {
-        padding-top: 10px;
+        padding-top: 1rem;
+    }
+}
+
+@media (max-width: 955px) {
+    .carnaval_inicio{
+        display: flex;
+        flex-direction: column;
+    }
+    .imagen_agrupaciones_carnaval{
+        width: 100%;
+    }
+    .poster_info{
+        margin-left: 0;
+    }
+    .tipo_agrupaciones_titulo_carnaval{
+        font-size: 2.5rem;
+    }
+    .informacion_carnaval{
+        font-size: 1rem;
+    }
+    .poster_info_derecha{
+        margin-left: 1.5rem;
+        margin-right: 0;
+    }
+    .titulo_carnaval{
+        font-size: 2rem;
+    }
+    .titulo_interes{
+        font-size: 3rem;
+    }
+    .secciones{
+        max-width: 80%;
+    }
+    .informacion_localizaciones{
+        font-size: 1rem;
     }
 }
