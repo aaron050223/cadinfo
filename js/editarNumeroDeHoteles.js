@@ -1,5 +1,6 @@
 // Elimino el primer hotel y añado un hotel nuevo
 
+/*
 // Seleccionamos el contenedor de los hoteles
 const contenedorHoteles = document.querySelector(".carnavaleros_destacados");
 // Borro el primer hotel
@@ -33,3 +34,5 @@ nuevoHotel.appendChild(divContenedor);
 
 // Finalmente, agregamos el nuevo hotel al final del contenedor de hoteles
 contenedorHoteles.appendChild(nuevoHotel);
+
+ */
