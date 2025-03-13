@@ -3,6 +3,7 @@
 /*
 // Seleccionamos el contenedor de los hoteles
 const contenedorHoteles = document.querySelector(".carnavaleros_destacados");
+
 // Borro el primer hotel
 contenedorHoteles.removeChild(contenedorHoteles.firstElementChild);
 
