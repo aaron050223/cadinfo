@@ -406,6 +406,28 @@ CARNAVAL
     margin-left: 2rem;
 }
 
+.Introducir_nombre{
+    width: 25%;
+    font-family: "Arial";
+    font-size: 1rem;
+    font-style: italic;
+    color: #888;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-left: 2rem;
+}
+
+.Introducir_apellidos{
+    width: 25%;
+    font-family: "Arial";
+    font-size: 1rem;
+    font-style: italic;
+    color: #888;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-left: 2rem;
+}
+
 .contraseña{
     font-family: "Roboto Light", sans-serif;
     font-size: 1.1rem;
