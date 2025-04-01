@@ -324,6 +324,16 @@ CARNAVAL
     margin: 2rem;
 }
 
+.hotel_parador{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+    flex-wrap: wrap;
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
 .carnavaleros_destacados_2{
     display: flex;
     justify-content: center;
@@ -481,6 +491,53 @@ CARNAVAL
         cursor: pointer;
     }
 }
+
+.añadir_hotel {
+    display: flex;
+    justify-content: flex-start;
+    width: fit-content;
+    font-family: "Roboto Light", sans-serif;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    border-radius: 0.4rem;
+    margin-left: 4.5rem;
+    background-color: var(--secundario);
+    color: white;
+    padding: 1rem;
+    transition: 0.3s;
+
+    &:hover {
+        transition: 0.3s;
+        transform: scale(1.1);
+        background-color: var(--secundario);
+        color: white;
+        cursor: pointer;
+    }
+}
+
+.eliminar_hotel {
+    display: flex;
+    justify-content: flex-start;
+    width: fit-content;
+    font-family: "Roboto Light", sans-serif;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    border-radius: 0.4rem;
+    margin-left: 4.5rem;
+    background-color: var(--secundario);
+    color: white;
+    padding: 1rem;
+    transition: 0.3s;
+
+    &:hover {
+        transition: 0.3s;
+        transform: scale(1.1);
+        background-color: var(--secundario);
+        color: white;
+        cursor: pointer;
+    }
+}
+
 .Parte_de_abajo{
     margin-top: 1.5rem;
     font-weight: lighter;
