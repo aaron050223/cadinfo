@@ -399,6 +399,22 @@ CARNAVAL
     width: 100%;
 }
 
+.mensaje_iniciar_sesion {
+    font-family: "Roboto Light", sans-serif;
+    font-size: 1.1rem;
+    color: white;
+    border: 2px var(--terciario) solid;
+    background-color: var(--secundario);
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-left: 4.5rem;
+    max-width: 75%;
+    text-align: justify;
+    margin-top: 3.5rem;
+    margin-bottom: 3.5rem;
+    font-weight: lighter;
+}
+
 .correo{
     font-family: "Roboto Light", sans-serif;
     font-size: 1.1rem;
@@ -406,6 +422,32 @@ CARNAVAL
     margin-left: 4.5rem;
 }
 .Introducir_correo_electronico{
+    width: 25%;
+    font-family: "Arial";
+    font-size: 1rem;
+    font-style: italic;
+    color: #888;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-left: 2rem;
+}
+
+.errorCorreo{
+    margin-left: 2rem;
+}
+
+.Introducir_hotel{
+    width: 25%;
+    font-family: "Arial";
+    font-size: 1rem;
+    font-style: italic;
+    color: #888;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-left: 2rem;
+}
+
+.Introducir_url{
     width: 25%;
     font-family: "Arial";
     font-size: 1rem;
@@ -479,6 +521,7 @@ CARNAVAL
     border-radius: 0.4rem;
     margin-left: 4.5rem;
     background-color: var(--secundario);
+    border: 2px solid var(--terciario);
     color: white;
     padding: 1rem;
     transition: 0.3s;
